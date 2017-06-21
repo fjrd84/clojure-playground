@@ -6,11 +6,17 @@ Learning some cool new stuff with clojure!
 
 Download from ...nowhere yet.
 
-## Usage
+## Using Leiningen
 
-FIXME: explanation
+Let's use [Leiningen](https://leiningen.org/) to run this thing...
 
-    $ java -jar clojure-noob-0.1.0-standalone.jar [args]
+- `lein run` Run it!
+- `lein uberjar` Build a jar file
+- `java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar`
+
+Using the REPL:
+
+- `lein repl` Start it!
 
 ## Options
 
