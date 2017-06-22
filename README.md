@@ -8,6 +8,11 @@ Download from ...nowhere yet.
 
 ## Using Leiningen
 
+This app has been generated with the following command:
+
+`lein new app app-name`
+
+
 Let's use [Leiningen](https://leiningen.org/) to run this thing...
 
 - `lein run` Run it!
