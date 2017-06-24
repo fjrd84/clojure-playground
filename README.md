@@ -29,6 +29,12 @@ Using the REPL:
 
 Run the function `M-x cider-jack-in RET` to start the REPL in a new window.
 
+Select code and press `C-x C-e` in order to send it for evaluation into the REPL.
+
+While working on a `.clj` file/buffer, use `C-c M-n` to set the namespace to the one specified on the top of the file.
+
+After editing a `.clj` file, use `C-c C-k` to compile it within the REPL session.
+
 ## About Clojure
 
 ## License
