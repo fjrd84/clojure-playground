@@ -1,6 +1,8 @@
 # clojure-playground
 
-Learning some cool new stuff with clojure!
+Learning some cool new stuff with clojure! 
+
+This is my personal playground repository. I'll add code and documentation here while I follow the book [Clojure for the Brave and True](http://www.braveclojure.com/).
 
 ## Installation
 
@@ -23,21 +25,11 @@ Using the REPL:
 
 - `lein repl` Start it!
 
-## Options
+## While using EMACS
 
-FIXME: listing of options this app accepts.
+Run the function `M-x cider-jack-in RET` to start the REPL in a new window.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+## About Clojure
 
 ## License
 
