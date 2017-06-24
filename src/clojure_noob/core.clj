@@ -1,14 +1,6 @@
 (ns clojure-noob.core
   (:gen-class))
 
-(defn -main
-  "Free hobbit ultraviolence"
-  [& args]
-  ;; Hit that hobbit!!
-  (println 
-   (str "Hitting a hobbit hard on... " (hit asym-hobbit-body-parts))))
-                
-
 (def asym-hobbit-body-parts [{:name "head" :size 3}
                              {:name "left-eye" :size 1}
                              {:name "left-ear" :size 1}
@@ -66,3 +58,10 @@
       (if (> accumulated-size target)
         part
         (recur remaining (+ accumulated-size (:size (first remaining))))))))
+
+(defn -main
+  "Free hobbit ultraviolence"
+  [& args]
+  ;; Hit that hobbit!!
+  (println 
+   (str "Hitting a hobbit hard on... " (hit asym-hobbit-body-parts))))
