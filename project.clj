@@ -6,4 +6,4 @@
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot clojure-noob.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all} :user {:plugins [[jonase/eastwood "0.2.4"]] }})
+  :profiles {:uberjar {:aot :all} :user {:plugins [[jonase/eastwood "0.2.4"] [lein-cloverage "1.0.9"]] }})

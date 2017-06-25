@@ -24,6 +24,7 @@ Let's use [Leiningen](https://leiningen.org/) to run this thing...
 Other commands:
 
 - `lein eastwood` run the linter
+- `lein cloverage` analyze the test coverage
 
 Using the REPL:
 
