@@ -25,6 +25,7 @@ Other commands:
 
 - `lein eastwood` run the linter
 - `lein cloverage` analyze the test coverage
+- `lein ancient` search for outdated dependencies
 
 Using the REPL:
 
