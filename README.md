@@ -26,6 +26,7 @@ Other commands:
 - `lein eastwood` run the linter
 - `lein cloverage` analyze the test coverage
 - `lein ancient` search for outdated dependencies
+- `lein kibit` analyze the code and suggest more idiomatic variants
 
 Using the REPL:
 
