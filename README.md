@@ -27,6 +27,8 @@ Other commands:
 - `lein cloverage` analyze the test coverage
 - `lein ancient` search for outdated dependencies
 - `lein kibit` analyze the code and suggest more idiomatic variants
+- `lein bikeshed` analyze the formatting of the source files
+- `lein omni` run all the quality analyzers (eastwood, cloverage, ancient, kibit and bikeshed).
 
 Using the REPL:
 
