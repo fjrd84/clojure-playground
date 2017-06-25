@@ -19,7 +19,11 @@ Let's use [Leiningen](https://leiningen.org/) to run this thing...
 
 - `lein run` Run it!
 - `lein uberjar` Build a jar file
-- `java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar`
+- `java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar` Run the generated jar file
+
+Other commands:
+
+- `lein eastwood` run the linter
 
 Using the REPL:
 
