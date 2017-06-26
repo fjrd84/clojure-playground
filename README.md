@@ -30,7 +30,7 @@ Other commands:
 - `lein bikeshed` analyze the formatting of the source files
 - `lein omni` run all the quality analyzers (eastwood, cloverage, ancient, kibit and bikeshed).
 
-Using the REPL:
+Using the REPL (Read Eval Print Loop):
 
 - `lein repl` Start it!
 
